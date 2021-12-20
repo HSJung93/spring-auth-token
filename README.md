@@ -8,9 +8,27 @@
 
 ## 시나리오
 
-1. 회원가입
-2. 로그인
-3. 이메일 인증(비밀번호 변경)
+1. 회원가입 및 로그인 화면
+![login](./docs/login.gif)
+
+2. 백엔드
+* 백엔드 인증 서버는 프론트엔드로 response를 반환(존재하지 않는 아이디)
+![back](./docs/back.png)
+* 레디스에 토큰과 만기 저장
+![redis-token](./docs/redis-token.PNG)
+* 사용자 DB에 유저 정보 저장
+![user_db](./docs/user_db.PNG)
+* salt DB에 각 유저별 salt 정보 저장
+
+![salt_db](./docs/salt_db.PNG)
+
+3. 이메일 인증으로 유저 권한 변경
+* 이메일 api 테스팅
+![verify-mail](./docs/verify-mail.PNG)
+* 메일 확인
+![mail-send](./docs/mail-send.PNG)
+* 유저 권한 변경
+![after-mail-db](./docs/after-mail-db.PNG)
 
 ## 프로젝트 세팅
 * 프론트 엔드
@@ -25,6 +43,8 @@
     * pom.xml에 dependency 세팅
 
 ## 기능 목록
+* 커밋 히스토리
+![commit-history](./docs/commit-history.PNG)
 * 회원가입 기능 구현
     * Member 모델, 레포지토리 구현
     * AuthService, AuthServiceImpl 구현
