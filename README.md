@@ -19,13 +19,14 @@
 * 사용자 DB에 유저 정보 저장
 ![user_db](./docs/user_db.PNG)
 * salt DB에 각 유저별 salt 정보 저장
+
 ![salt_db](./docs/salt_db.PNG)
 
 3. 이메일 인증으로 유저 권한 변경
 * 이메일 api 테스팅
 ![verify-mail](./docs/verify-mail.PNG)
 * 메일 확인
-![mail-send](./mail-send.PNG)
+![mail-send](./docs/mail-send.PNG)
 * 유저 권한 변경
 ![after-mail-db](./docs/after-mail-db.PNG)
 
