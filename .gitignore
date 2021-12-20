@@ -3,6 +3,36 @@
 application.properties
 
 ###
+.front_logins/node_modules
+
+# dependencies
+.front_logins/node_modules
+.front_logins/.pnp
+.front_logins/.pnp.js
+
+# testing
+.front_logins/coverage
+
+# production
+.front_logins/build
+
+# misc
+.front_logins/.DS_Store
+.front_logins/.env.local
+.front_logins/.env.development.local
+.front_logins/.env.test.local
+.front_logins/.env.production.local
+
+.front_logins/npm-debug.log*
+.front_logins/yarn-debug.log*
+.front_logins/yarn-error.log*
+
+
+
+###
+.mvn
+
+###
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -36,3 +66,4 @@ build/
 
 ### VS Code ###
 .vscode/
+node_modules
