@@ -1,7 +1,7 @@
 # Spring으로 구현하는 Auth Server
 
 ## 아키텍처
-![architecture](./docs/diag.png)
+![architecture](./docs/diag.PNG)
 
 ## ERD
 ![erd](./docs/erd.png)
