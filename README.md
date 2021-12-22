@@ -68,3 +68,8 @@
     * 사용자 역할 설정하는 admin 페이지 구현
         * [x] AdminController 구현
         * [ ] admin 화면 구현(타임 리프)
+    * [ ] Enum UserRole에 속성을 더하여 UserRole별 db에 저장될 tinyint 값 구현
+ 
+## 회고
+* React를 사용해본 것은 좋으나, React를 공부하느라 백엔드에서 추가적으로 구현해 볼 수 있는 것들을 놓침(ex. nginx)
+* React 프론트 구현이 완벽하지 않음(ex. db 설정에 맞는 글자 수 제한 등)
